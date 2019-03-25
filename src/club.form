@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="360" max="-2" attributes="0"/>
+                      <Component id="HeadLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="222" max="-2" attributes="0"/>
+                      <Component id="SaveButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="UpdateButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="SearchButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="ResetButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="StatusTField" alignment="0" pref="100" max="32767" attributes="0"/>
+                              <Component id="RfeeTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="PhonenoTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="WeblinkTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="FlinkTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="EmailTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="StudentInchTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="TeacherInchTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="TypeTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="DateTField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="NameTField" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="DateLabel" max="32767" attributes="0"/>
+                                  <Component id="NameLabel" max="32767" attributes="0"/>
+                                  <Component id="StudentInchLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TeacherInchLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="EmailLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TypeLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="FlinkLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="WeblinkLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="PhonenoLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="RfeeLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="StatusLabel" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="ErrorLabel" min="-2" pref="500" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="650" pref="981" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="HeadLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NameLabel" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="NameTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DateLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="DateTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TypeTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TeacherInchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TeacherInchTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="StudentInchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="StudentInchTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="EmailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="EmailTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FlinkLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FlinkTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="WeblinkLabel" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="WeblinkTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PhonenoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PhonenoTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="RfeeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RfeeTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="StatusLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="StatusTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="UpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SearchButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ResetButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+              <Component id="ErrorLabel" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="HeadLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Club Registration Form"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name of Club or Society"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Registration"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type of Club or Society"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TeacherInchLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Teacher Incharge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="StudentInchLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Student Incharge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EmailLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-mail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FlinkLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Facebook Link"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="WeblinkLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Web Link"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PhonenoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contact Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RfeeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registeration Fee"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="StatusLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SaveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ResetButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ResetButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="UpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SearchButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="NameTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="DateTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DateTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TypeTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TeacherInchTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="StudentInchTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="EmailTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="FlinkTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="WeblinkTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="WeblinkTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PhonenoTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="RfeeTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="StatusTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StatusTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ErrorLabel">
+    </Component>
+  </SubComponents>
+</Form>

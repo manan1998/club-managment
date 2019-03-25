@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="545" max="-2" attributes="0"/>
+                      <Component id="HeadLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ErrorLabel" alignment="0" min="-2" pref="599" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="StudentInchLabel" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="TeacherInchLabel" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="PfeeLabel" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="TitleLabel" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                  <Component id="VenueLabel" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="ClubidLabel" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="TypeLabel" alignment="0" pref="101" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="StatusLabel" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="DescriptionLabel" alignment="0" pref="101" max="32767" attributes="0"/>
+                                      <Component id="Prize3Label" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Prize1Label" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Prize2Label" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="DateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="TitleTField" alignment="0" pref="101" max="32767" attributes="0"/>
+                                      <Component id="DateTField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="VenueTField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="TypeTField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="TeacherInchTField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="StudentInchTField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Prize1TField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Prize2TField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Prize3TField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="DescriptionTField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="StatusTField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="ClubidComboBox" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="PfeeTField" min="-2" pref="101" max="-2" attributes="0"/>
+                                  <Component id="SaveButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Component id="UpdateButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="SearchButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="ResetButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="965" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="HeadLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TitleLabel" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="TitleTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DateTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="VenueLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VenueTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TypeTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ClubidLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ClubidComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TeacherInchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TeacherInchTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="StudentInchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="StudentInchTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Prize1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Prize1TField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Prize2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Prize2TField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Prize3Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Prize3TField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DescriptionTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="StatusLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="StatusTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PfeeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PfeeTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="UpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SearchButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ResetButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Component id="ErrorLabel" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="HeadLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Event Registration "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Registration"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="VenueLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Venue"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TypeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type of Event"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ClubidLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Club ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TeacherInchLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Teacher Incharge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="StudentInchLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Student Incharge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Prize1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prize 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Prize2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prize 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Prize3Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prize 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DescriptionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Description"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="StatusLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PfeeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Participation Fee"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TitleTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TitleTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DateTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DateTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="VenueTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TypeTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TeacherInchTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="StudentInchTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Prize1TField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Prize1TFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Prize2TField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Prize3TField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Prize3TFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DescriptionTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="StatusTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StatusTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PfeeTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PfeeTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="SaveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="ResetButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ResetButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="UpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SearchButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ClubidComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="Select Club"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ErrorLabel">
+    </Component>
+  </SubComponents>
+</Form>

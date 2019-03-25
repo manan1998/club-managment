@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="StatusLabel" max="32767" attributes="0"/>
+                          <Component id="BalanceLabel" max="32767" attributes="0"/>
+                          <Component id="AmntPaidLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="DateLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="ClubidLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Skill2Label" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Skill1Label" alignment="0" max="32767" attributes="0"/>
+                          <Component id="CityLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="AddressLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="EmailLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PhonenoLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="RollnoLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="YearLabel" max="32767" attributes="0"/>
+                          <Component id="CourseLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="NameLabel" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="NameTField" pref="100" max="32767" attributes="0"/>
+                          <Component id="CourseTField" max="32767" attributes="0"/>
+                          <Component id="YearTField" max="32767" attributes="0"/>
+                          <Component id="RollnoTField" max="32767" attributes="0"/>
+                          <Component id="PhonenoTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="EmailTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="AddressTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="CityTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Skill1TField" max="32767" attributes="0"/>
+                          <Component id="Skill2TField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="DateTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="AmntPaidTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="BalanceTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="StatusTField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="ClubComboBox" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="317" max="-2" attributes="0"/>
+                      <Component id="HeadLabel" min="-2" pref="169" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ErrorLabel" min="-2" pref="600" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="285" max="-2" attributes="0"/>
+                      <Component id="SaveButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="ResetButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="UpdateButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="SearchButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="924" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="HeadLabel" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NameTField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CourseTField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CourseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="YearLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="YearTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="RollnoLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="RollnoTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="PhonenoLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="PhonenoTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="EmailLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="EmailTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="AddressLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddressTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="CityLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="CityTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Skill1Label" min="-2" max="-2" attributes="0"/>
+                  <Component id="Skill1TField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Skill2Label" min="-2" max="-2" attributes="0"/>
+                  <Component id="Skill2TField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ClubidLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ClubComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="DateLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="DateTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="AmntPaidLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="AmntPaidTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="BalanceLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="BalanceTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="StatusLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="StatusTField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ResetButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="UpdateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SearchButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="ErrorLabel" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="HeadLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registration form for Club"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name of applicant"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="NameTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NameTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CourseLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Course "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CourseTField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="YearLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="YearTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="YearTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RollnoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Roll No."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PhonenoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EmailLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-mail ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CityLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Skill1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Skill 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Skill2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Skill 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ClubidLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Club ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registration Date"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AmntPaidLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Amount Paid"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BalanceLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Balance"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="StatusLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="RollnoTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RollnoTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PhonenoTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="EmailTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="AddressTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddressTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CityTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Skill1TField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Skill2TField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="DateTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="AmntPaidTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AmntPaidTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BalanceTField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="StatusTField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StatusTFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="SaveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ResetButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ClubComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="Select Club"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox&lt;&gt;()"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ErrorLabel">
+    </Component>
+    <Component class="javax.swing.JButton" name="UpdateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SearchButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
